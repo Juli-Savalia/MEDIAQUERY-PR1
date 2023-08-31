@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+}
+
+
+body{
+	background-color:#5E5E59;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/Nunito-Black.eot');
+}
+
+.align-item{
+	align-items:center;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+.xs-1, .xs-2, .xs-3, .xs-4, .xs-5, .xs-6, .xs-7, .xs-8, .xs-9, .xs-10, .xs-11, .xs-12, 
+.sm-1, .sm-2, .sm-3, .sm-4, .sm-5, .sm-6, .sm-7, .sm-8, .sm-9, .sm-10, .sm-11, .sm-12, 
+.md-1, .md-2, .md-3, .md-4, .md-5, .md-6, .md-7, .md-8, .md-9, .md-10, .md-11, .md-12, 
+.lg-1, .lg-2, .lg-3, .lg-4, .lg-5, .lg-6, .lg-7, .lg-8, .lg-9, .lg-10, .lg-11, .lg-12, 
+.xl-1, .xl-2, .xl-3, .xl-4, .xl-5, .xl-6, .xl-7, .xl-8, .xl-9, .xl-10, .xl-11, .xl-12{
+	position:relative;
+	padding:12px;
+}
+
+.box1{
+	width:100%;
+	border-radius:15px;
+	box-shadow:0 4px 0.5px black;
+	 font-family: 'Nunito';
+	padding:12px;
+	background: linear-gradient(90deg, rgba(9,11,9,1) 23%, rgba(252,79,70,1) 100%);
+	color:white;
+}
+
+.box1 p{
+	padding:10px;
+}
+
+.box1 h2{
+	padding-left:10px;
+}
+
+button{
+	padding:5px;
+	margin:10px;
+	background-color:transparent;
+	color:white;
+	font-size:10px;
+	border-radius:5px;
+	border:3px double black;
+	transition:all 0.5s;
+}
+
+button:hover{
+	background-color:white;
+	color:black;
+}
+
+i{
+	padding-right:10px;
+}
+
